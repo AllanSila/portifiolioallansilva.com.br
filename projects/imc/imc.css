@@ -1,0 +1,124 @@
+:root{
+    --cor-fundo : #000000;
+    --cor-roxa :#1a1a40;
+    --cor-verde : rgb(3, 255, 3);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right, #1a1a40, #1e5128 ); 
+
+}
+a{
+    color: var(--cor-verde);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}
+main{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 55px;
+    background-color:rgb(6, 46, 75);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 450px;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+.container{
+    background-color:rgb(6, 46, 75);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.title{
+    font-size: 26px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    background-color:rgb(6, 46, 75);
+    border-bottom: solid 1px  var(--cor-verde);
+}
+
+.input{
+    border-bottom: solid 1px  var(--cor-verde);
+}
+
+.input,label{
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+    
+}
+
+.input input{
+    background-color: var(--cor-verde);
+    border-radius: 8px;
+    height: 40px;
+    padding: 20px;
+    color: black;
+    
+}
+
+#calcular{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 60px;
+    background-color: var(--cor-verde);
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px var(--cor-fundo);
+    color: black;
+}
+
+#calcular:hover{
+    background-color: white;
+    font-weight: bold;
+    color: var(--cor-fundo);
+    width: 100%;
+    transform: scale(0.9);
+    transition: 300ms linear; 
+    box-shadow: 1px 1px 2px 2px var(--cor-verde);
+    letter-spacing: 5px;
+
+
+}
+
+.result{
+    background-color: var();
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    height: 60px;
+    align-content: center;
+    display: none;
+}
+
+.rodape{
+    background-color: black;
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
